@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="Menu.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+	<section class="header">
+		<img src="F:\Html\Project\UCSY LOGO.png" width="150" height="100" align="left">
+		<p>UCSY Canteen</p>
+
+		<nav class="navbar">
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#menu">Menu</a>
+			<a href="#order">Order</a>
+		</nav>
+	<div id="menu-btn" class="fas.fa-bars"></div>
+	</section>
+
+	<section class="home" id="home">
+    <div class="swiper mySwiper">
+     <div class="swiper-wrapper">
+
+         <div class="swiper-slide"  style="background: url(food1.jpg) no-repeat; background-size: cover;" >
+           <div class="content">
+             <h3 class="next">ခိုင်ကန်တင်း</h3>
+
+             <a href="#" class="btn">Get started</a></div>
+         </div>
+
+         <div class="swiper-slide"  style="background: url(food2.jpeg) no-repeat; background-size: cover;">
+           <div class="content">
+             <h3 class="next">တာချီလိတ်</h3>
+             <a href="#" class="btn">Get started</a></div>
+         </div>
+
+         <div class="swiper-slide"  style="background: url(food3.jpg) no-repeat; background-size: cover;">
+           <div class="content">
+             <h3 class="next">ရှမ်းမလေး</h3>
+             <a href="#" class="btn">Get started</a></div>
+         </div>
+
+     </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+</script>
+
+	 
+	<section class="food">
+	<div id="menu">
+		<h1 id="section">Menu</h1>
+		<div id="menu_row">
+			<div id="menu_col">
+				<h2>Breakfast</h2>
+				<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+				</div>
+			<div>
+				<h3 align="center">မုန့်ဟင်းခါး</h3>
+				<h4 align="center">1000ks</h4>
+		</div>
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ရွှေတောင်ခေါက်ဆွဲ</h3>
+				<h4 align="center">1800ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကြာဇံချက်</h3>
+				<h4 align="center">1000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကွေ့တီယို</h3>
+				<h4 align="center">1800ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ရှမ်းခေါက်ဆွဲ</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">တို့ဟူးနွေး</h3>
+				<h4 align="center">1800ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ခေါက်ဆွဲပြုတ်/ကြာဇံပြုတ်</h3>
+				<h4 align="center">1000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="ဆီချက်.png">
+					</div>
+			<div>
+				<h3 align="center">ဆီချက်</h3>
+				<h4 align="center">1800ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="နန်းကြီးသုပ်.png">
+					</div>
+			<div>
+				<h3 align="center">နန်းကြီးသုပ်/နန်းပြားသုပ်</h3>
+				<h4 align="center">1800ks</h4>
+			</div>
+		</div>
+	
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ခေါက်ဆွဲသုပ်</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကြာဇံသုပ်</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မုန့်ဖတ်သုပ်</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">အစုံသုပ်</h3>
+				<h4 align="center">1000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ဗမာထမင်းကြော်(ကြက်/ဝက်)</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ပေါက်စီ(ကြက်/ဝက်)</h3>
+				<h4 align="center">1000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ပေါင်မုန့်ပုဇွန်လိပ်/CPလိပ်</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">Cheese Sandwich</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">Burger</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ရေညှိထမင်းလိပ်</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ငါးသေတ္တာပေါင်မုန့်</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">အာလူးကြော်</h3>
+				<h4 align="center">1800ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ပြောင်းဖူးကြော်</h3>
+				<h4 align="center">1800ks</h4>
+			</div>
+		</div>
+
+
+		</div>
+
+		<div id="menu_col">
+				<h2>Lunch</h2>
+				<div class="box">
+					<div id="image">
+						<img src="Breakfast1.png">
+					</div>
+				</div>
+			<div>
+				<h3 align="center">ထမင်းဖြူ</h3>
+				<h4 align="center">600ks</h4>
+		</div>
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကြက်ဆီထမင်း</h3>
+				<h4 align="center">3000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">လက်ဖက်ထမင်း</h3>
+				<h4 align="center">1200ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="ရခိုင်ထမင်းသုပ်.png">
+					</div>
+			<div>
+				<h3 align="center">ရခိုင်ထမင်းသုပ်</h3>
+				<h4 align="center">1200ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ပုန်းရည်ကြီးထမင်းသုပ်</h3>
+				<h4 align="center">1200ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မြန်မာထမင်းသုပ်</h3>
+				<h4 align="center">1200ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ထမင်းကြော်(ပသျှူး/တရုတ်)</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ထမင်းပေါင်း</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မြေအိုးထမင်းပေါင်း</h3>
+				<h4 align="center">3000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မြေအိုးမြီးရှည်</h3>
+				<h4 align="center">3000ks</h4>
+			</div>
+		</div>
+	
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မာလာဟင်း</h3>
+				<h4 align="center">3500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မာလာရှမ်းကော</h3>
+				<h4 align="center">4000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မာလာမောက်ချိုက်</h3>
+				<h4 align="center">4000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကတ်ကြေးကိုက်</h3>
+				<h4 align="center">3000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ခေါက်ဆွဲကြော်</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကြာဇံကြော်</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မာလာအကင်သုပ်</h3>
+				<h4 align="center">3000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">အသုပ်မျိုးစုံ</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကြက်အရေခွံသုပ်</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">အထောင်းမျိုးစုံ</h3>
+				<h4 align="center">3000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">အကင်စုံ</h3>
+				<h4 align="center">3000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="ဝက်အကင်.png">
+					</div>
+			<div>
+				<h3 align="center">ဝက်ဂုတ်သားကင်</h3>
+				<h4 align="center">1000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကြက်ပေါင်း(ချို+စပ်)</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">အစိမ်းကြော်</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကြက်အရေခွံကြော်</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+		</div>
+
+		<div id="menu_col">
+				<h2>Drinks</h2>
+				<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+				</div>
+			<div>
+				<h3 align="center">ကော်ဖီ</h3>
+				<h4 align="center">400ks</h4>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကော်ဖီအေး</h3>
+				<h4 align="center">1200ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">လက်ဖက်ရည်</h3>
+				<h4 align="center">800ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">လက်ဖက်ရည်အေး</h3>
+				<h4 align="center">1200ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">နှပ်ဖျော်</h3>
+				<h4 align="center">800ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">နွားနို့</h3>
+				<h4 align="center">1000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ဇီး/သံဗူး/သစ်ခွ/ဘာလီ</h3>
+				<h4 align="center">700ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ကျောက်ကျော/ဆေးကုလားမ</h3>
+				<h4 align="center">1000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">သုံးမျိုးရော</h3>
+				<h4 align="center">1000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="ရေခဲသုပ်.png">
+					</div>
+			<div>
+				<h3 align="center">‌ရေခဲသုပ်</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">လီမွန်တီး</h3>
+				<h4 align="center">1200ks</h4>
+			</div>
+		</div>
+	
+		<div class="box">
+					<div id="image">
+						<img src="နို့သစ်ခွ.png">
+					</div>
+			<div>
+				<h3 align="center">နို့သစ်ခွ</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">နို့ဇီး</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မစ်ရှိတ်မျိုးစုံ</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">အသီးဖျော်ရည်မျိုးစုံ</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ဆိုဒါမျိုးစုံ</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">Juiceမျိုးစုံ</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ဒိန်ချဉ်</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">မိုင်လိုအေး/အိုဗာတင်းအေး</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">နို့အေး</h3>
+				<h4 align="center">1500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">စတော်ဘယ်ရီဒိန်ချဉ်</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ဒိုမီနို</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">ဖာလူဒါ</h3>
+				<h4 align="center">2500ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">Bubble Tea</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		<div class="box">
+					<div id="image">
+						<img src="breakfast1.png">
+					</div>
+			<div>
+				<h3 align="center">Green tea</h3>
+				<h4 align="center">2000ks</h4>
+			</div>
+		</div>
+
+		</div>
+	</div>
+	</div>
+
+</section>
+</section>
+</section>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.food #menu{
+	padding: 25px 0 25px 0;
+	background-image: radial-gradient(#3D9776,#79A97D,#A9BB8F);
+}
+.food #section{
+	padding: 25px 0 25px 0;
+	text-align: center;
+	font-size: 2rem;
+	font-family: verdana;
+}
+.food #menu_row{
+	display: flex;
+	padding: 0 100px 0 100px;
+}
+.food #menu_col{
+	box-shadow: 2px 2px 2px #bbb;
+	border: 1px solid #bbb;
+	background-image: radial-gradient(#C1E8FF,#7DA0CA,#5483B3,#052659);
+	padding: 10px;
+	margin: 10px;
+	flex: 1;
+}
+.food #menu_col h2{
+	/*background-color: none;*/
+	color: black;
+	text-align: center;
+	padding: 5px;
+	font-family: cursive;
+}
+.food #image{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	padding: 5px;
+	border: 2px solid black;
+}
+.food #image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.food .box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+}
