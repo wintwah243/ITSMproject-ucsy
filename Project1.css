@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  background-color: #FFF394; background-size: cover; width: 100%;height: 100vh;position: relative;padding: 0.5%;display: flex;align-items: center;justify-content: center;
+}
+
+.logo{
+  background-color: #FFF394; background-size: cover; position: relative; display: flex; padding: 0.5%;
+}
+
+.content{
+  text-align: center;
+}
+
+.content h4{
+  font-size: 160px;color:transparent;font-weight: 600; -webkit-text-stroke:1px black;
+}
+
+.content h5{
+  font-size: 160px;color:transparent;font-weight: 600;-webkit-text-stroke:1px black;
+}
+
+.content a{
+  letter-spacing: 2px; position: relative; text-decoration: none;display: inline-block;color: black;font-size: 24px;border: 2px solid black;padding: 14px 70px;border-radius: 50px;margin-top: 50px;margin-right: 20px;
+}
+
+/*footer starts*/
+
+.footer{
+  background-color: #FFF394; position: relative;padding: 0.5%;display: flex;align-items: center;justify-content: center;
+}
+
+.fa{
+  padding: 20px;font-size: 30px;width: 50px;text-align: center;
+}
+
+.fa-facebook{
+  color: white;background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
+}
+
+.fa-twitter {
+   color: white;background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
+}
+
+.fa-linkedin-square {
+  color: white;background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
+}
+
+.social{
+  list-style: none;display: flex;align-items: center;justify-content: center;margin: 1rem 0 3rem 0;background-color: #FFF394;
+}
+
+.social li{
+  margin: 0 10px;
+}
+
+.social a{
+  text-decoration: none;color: #fff;
+}
+
+.social a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  padding: 20px 0; text-align: center; font-size: 14px;word-spacing: 2px;text-transform: capitalize;background-color: #FFF394;;color: black;align-items: center;
+}
+/*footer stops*/
