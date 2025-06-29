@@ -31,7 +31,7 @@ This project is a simple web-based application built to help manage food orderin
 - Wint Wah Kyaw Soe
 - Phoo Pyae Sone (https://github.com/Phoopyaesone984)
 - Ei Ngoan Phoo
-- Yin Nyein Htwe
+- Yin Nyein Htwe (https://github.com/yinnyeinhtwe)
 - Durga Ghimirae
 - Ingyin Mhwe
 
