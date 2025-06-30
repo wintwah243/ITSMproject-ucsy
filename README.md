@@ -28,7 +28,7 @@ This project is a simple web-based application built to help manage food orderin
 
 ## Team Members
 
-- Wint Wah Kyaw Soe
+- Wint Wah Kyaw Soe (https://github.com/wintwah243)
 - Phoo Pyae Sone (https://github.com/Phoopyaesone984)
 - Ei Ngoan Phoo
 - Yin Nyein Htwe (https://github.com/yinnyeinhtwe)
